@@ -1,0 +1,282 @@
+body {
+overflow-x: hidden;
+}
+
+#errorMessage {
+background: rgba(0,0,0,.5);
+position: fixed;
+height: 100%;
+width: 100%;
+top: 0;
+left: 0;
+animation-name: disappear;
+animation-duration: 3s;
+z-index: 1000;
+display: none;
+text-align: center;
+}
+
+#emsg {
+position: relative;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+padding: 28px;
+color: #cc0a0a;
+background: #eee;
+border-radius: 10px;
+font-weight: bolder;
+font-size: 18px;
+max-width: 350px;
+width: 80%;
+}
+
+.error-ok {
+position: relative;
+margin-top: 20px;
+}
+
+.navbar	 {
+	width: 100%;
+	background: rgba(58,30,7,.5);
+	color: #fff;
+	border-radius: 0 !important;
+	border-bottom : rgb(58,30,7);
+}
+
+.navbar a{
+	color: #fff !important;
+}
+
+.navbar a:hover{
+	color: #f4ad42 !important;
+}
+
+.navbar .dropdown-menu a {
+	color: #000 !important;
+}
+
+.navbar-collapse {
+	max-height: 100% !important;
+}
+
+#main-banner {
+	background: url('../../images/banner.jpg') fixed no-repeat;
+	position: relative;
+	min-height: 500px;
+	margin-bottom: 50px;
+	background-size: 100% 100%;
+	background-origin: 50%;
+}
+
+@media only screen and (max-width: 568px) {
+	#main-banner {
+		background-size: 140% 100%;
+	}
+}
+
+#main-banner .logo {
+	text-align: center;
+	position: relative;
+	margin-top: 150px;
+
+	//transform: translate(-50%,-50%);
+}
+
+#main-banner .logo img {
+	display: inline;
+	text-shadow: 0 0 5px #ffffff, 0 0 20px #ffffff;
+}
+
+#main-banner .info {
+	color: #fff;
+	font-size: 6rem;
+	left: 35%;
+	padding-top: 140px;
+	transform: translate(-50%,0%);
+
+	text-shadow: 0 0 10px #000;
+}
+
+#main-banner .heading {
+	font-weight: bolder;
+	font-size: 8rem;
+}
+
+@media screen and (max-width:992px)
+{
+	#main-banner {
+		padding: 150px 0 50px 0;
+	}
+
+	#main-banner .logo {
+		text-align: center;
+		position: relative;
+		margin-top: 0px;
+	}
+
+	#main-banner .info {
+	transform: translate(0%,0%);
+	left: 0%;
+	top: 0%;
+	font-size: 5rem;
+	padding-top: 0;
+	}
+
+	#main-banner {
+		text-align: center;
+	}
+
+}
+
+@media screen and (max-width:420px)
+{
+	#main-banner .logo img {
+		width: 40%;
+		margin-bottom: 10px;
+	}
+	#main-banner .info {
+	font-size: 2.5rem;
+	}
+
+	#main-banner .heading {
+	font-size: 3.5rem;
+	}
+
+	#main-banner .heading .type-effect {
+		font-size: 2.5rem;
+	}
+}
+
+
+
+
+
+
+
+
+
+.about-us-parallax{
+	background-image: url("../../images/bg2.jpg");
+
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+
+	min-height: 380px;
+
+
+	position: relative;
+    opacity: 1.0;
+}
+
+.about-us-text{
+	color: #777;
+    background-color: white;
+    text-align: center;
+    padding: 50px 80px;
+    text-align: justify
+
+}
+
+.caption{
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	top: 33%;
+	left: 0;
+
+	color: #000;
+}
+
+.heading-aboutUs{
+	letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 30px "Lato", sans-serif;
+    color: #111;
+    padding-bottom: 15px;
+}
+
+.textofAboutUs{
+	background-color: transparent;
+	font-size: 25px;
+	color: #f7f7f7;
+}
+
+.description-aboutus{
+	font-size: 20px;
+}
+
+.contactus-parallax{
+	background-image: url(../../images/message.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+
+	min-height: 380px;
+
+
+	position: relative;
+    opacity: 1.0;
+}
+
+.textofContactUs{
+	font-size: -webkit-xxx-large;
+	color: white;
+}
+
+.followUs-parallax{
+	margin-top:5px;
+	background-image: url(../../images/follow-us.jpg);
+
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+
+	min-height: 380px;
+
+
+	position: relative;
+    opacity: 1.0;
+}
+
+body{
+	padding-bottom: 0 !important;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+
+    .social{
+    	padding-top: 10px;
+    }
+
+    .heading-aboutUs{
+
+    }
+
+    .about-us-text{
+		padding: 10px 10px;
+	}
+
+	.navbar .dropdown-menu a {
+		color: #fff !important;
+		padding-left: 50px !important;
+
+	}
+
+    }
+
+@media only screen and (max-width: 350px) {
+	.heading-aboutUs {
+		font-size: 20px;
+	}	
+}
+
+@media only screen and (max-width: 220px) {
+	.heading-aboutUs {
+		font-size: 1em;
+	}	
+}

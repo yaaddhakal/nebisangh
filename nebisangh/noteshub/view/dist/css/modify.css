@@ -1,0 +1,44 @@
+.select2-container{
+	width: 225px !important;
+}
+
+.col-semester{
+	padding: 15px;
+}
+
+.col-branch{
+	padding: 15px;
+}
+
+.col-subject{
+	padding: 15px;
+}
+
+.center-content{
+	text-align: center;
+}
+
+.table.dataTable thead .sorting:after{
+	display: none !important;
+}
+
+.table.dataTable thead .sorting:before{
+	display: none !important;
+}
+
+.table.dataTable thead .sorting_asc:after{
+	display: none !important;
+}
+
+.table.dataTable thead .sorting_desc:after{
+	display: none !important;
+}
+
+.results-table{
+	padding-bottom: 45px;
+	padding-top: 45px;
+}
+
+.div.dataTables_wrapper div.dataTables_info{
+	padding-bottom: 15px;
+}

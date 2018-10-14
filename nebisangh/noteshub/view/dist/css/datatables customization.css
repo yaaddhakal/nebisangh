@@ -1,0 +1,5 @@
+@media only screen and (max-width: 420px) {
+	.dataTables_wrapper .dataTables_paginate .paginate_button {
+		padding: 0;
+	}
+}

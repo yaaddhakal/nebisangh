@@ -1,0 +1,15 @@
+{
+  "short_name": "NotesHub",
+  "name": "NotesHub",
+  "icons": [
+    {
+      "src": "images/192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "https://noteshub.co.in/",
+  "display": "standalone",
+  "background_color": "#8a6d3b",
+  "theme_color": "#8a6d3b"
+}

@@ -1,0 +1,124 @@
+.sell-books {
+	overflow: scroll;
+}
+
+#add-book,
+#add-supplementary,
+#add-notes {
+	margin-bottom: 100px;
+}
+
+#add-book a,
+#add-supplementary a,
+#add-notes a{
+	color: #fff;
+	padding: 10px;
+	background: #555;
+	float: right;
+}
+
+@media only screen and (max-width: 420px) {
+	#add-book a,
+	#add-supplementary a,
+	#add-notes a {
+		float: left;
+	}
+}
+
+.add-more-fields a:hover{
+	background: #444;
+	text-decoration: none;
+}
+
+.books input,
+.books select,
+.supplementary input,
+.supplementary select,
+.notes input,
+.notes select {
+	border: 0;
+	outline: 0;
+	width: 100%;
+	height: 100%;
+	padding: 15px 10px;
+	user-select: none;
+}
+
+.books,
+.supplementary,
+.notes {
+	margin-bottom: 0px;
+}
+
+.table-heading {
+	background-color: #0081d7;
+	color: #fff;
+}
+
+.table-heading span{
+	font-weight: normal;
+}
+
+.books td,
+.supplementary td,
+.notes td {
+	padding: 0 !important;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+	display: none;
+}
+
+input:focus {
+	color: #0081d7;
+}
+
+.individual-noteshub-value {
+	padding: 0 !important;
+}
+
+.individual-noteshub-value input,
+.price-calculator input {
+	color: #009b75;
+	width: 100%;
+	padding: 16px 0px;
+	text-align: center;
+	user-select: none;
+}
+
+.individual-noteshub-value:before {
+	content: '\ ';
+	height: 20px;
+	width: 20px;
+}
+
+.price-calculator {
+	margin: auto;
+	//padding: 25px;
+}
+
+.price-calculator input {
+	width: 49.55%;
+	padding: 14px 14px;
+	color: #fff;
+	background: #0081d7;
+	border: 0;
+	display: inline;
+	margin: 0;
+	font-size: 125%;
+}
+
+.sell {
+		width: 100%;
+		margin: 50px 0;
+		font-size: 125%;
+		padding: 20px 0;
+}
+
+@media only screen and (max-width: 500px)
+{
+	.price-calculator input {
+	width: 100%;
+	display: block;
+	}
+}
